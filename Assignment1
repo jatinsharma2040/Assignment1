@@ -1,0 +1,68 @@
+#list
+mylist = ["Brock Lesnar",1,"Roman Reigns",2,"The Undertaker",3,"Triple H",4,True]
+#print(mylist)
+
+#update
+mylist[0]= "Brock" 
+mylist[8]= False
+#print(mylist)
+
+#insert
+mylist.insert(9,"Head")
+#print(mylist)
+
+#deletion
+del mylist[5]
+#print(mylist)
+
+
+#indexing
+print(mylist[0])
+
+#tupple
+head = (["of","the","table","Roman","Reigns","Brock","Lesnar"])
+#print(head)
+
+#updation
+head[0]="Roman"
+#print(head)
+
+#insertion
+head.insert(6,"Brock")
+#print(head)
+
+#deletion
+del head[6]
+print(head)
+
+#indexing
+print(head[2])
+
+#Dictionary
+oxford={
+    "Page1":"A alphabate",
+    "Page2":"B alphabate",
+    "Page3":"C alphabate",
+    "Page4":"D alphabate"
+}
+print(oxford["Page1"])
+
+#update
+oxford["Page1"]="E alphabate"
+#print(oxford)
+
+#deletion
+del (oxford["Page1"])
+print(oxford)
+
+#slicing
+Roman_Reigns = "Head_of_the_table_Trible_chief"
+#print(Roman_Reigns[4:])
+#print(Roman_Reigns[4:15])
+#rint(Roman_Reigns[-2:])
+#print(Roman_Reigns[-20:-5])
+
+#stepindex
+print(Roman_Reigns[5:15:2])
+print(Roman_Reigns[::-2])
+print(Roman_Reigns[-5:-20:-2])
